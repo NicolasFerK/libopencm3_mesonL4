@@ -42,7 +42,7 @@ libstm32l4_sources = files(
 	'pwr.c',
 	'rcc.c',
 	#'rng.c', # XXX: This source is unused for some reason
-	'rtc.c',
+	#'rtc.c',
 	#'vector_chipset.c', # XXX: This source is unused for some reason
 )
 
