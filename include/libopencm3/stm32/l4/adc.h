@@ -35,6 +35,7 @@
 
 #include <libopencm3/stm32/common/adc_common_v2.h>
 #include <libopencm3/stm32/common/adc_common_v2_multi.h>
+#include <libopencm3/stm32/common/adc_common_v1_multi.h>
 
 /** @defgroup adc_reg_base ADC register base addresses
  * @ingroup adc_defines
@@ -43,6 +44,7 @@
 #define ADC1				ADC1_BASE
 #define ADC2				ADC2_BASE
 #define ADC3				ADC3_BASE
+#define ADC_CCR(adc)		MMIO32((adc) + 0x300 + 0x8)
 /**@}*/
 
 /** @defgroup adc_channel ADC Channel Numbers
