@@ -59,8 +59,8 @@ libstm32l4 = static_library(
 	'opencm3_stm32l4',
 	[
 		libstm32l4_sources,
-		libstm32_adc_v1_multi_sources,
-		libstm32_adc_f47_sources,
+		libstm32_adc_v2_multi_sources,
+		libstm32_adc_v2_sources,
 		libstm32_crc_v1_sources,
 		libstm32_dac_v1_sources,
 		libstm32_dcmi_f47_sources,
